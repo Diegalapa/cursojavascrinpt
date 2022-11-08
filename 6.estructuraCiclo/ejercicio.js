@@ -95,6 +95,7 @@ function factorialize(num) {
     }
 }
 factorialize(5);
+console.log(factorialize)
 
 //q mi muestre los n numeros de la siere de fibonacci
 //1-2-3-5-8-13-21-34
@@ -114,6 +115,8 @@ var fib = function(n) {
 
   return c;
 };
+
+
 //que mi determine si un texto es palimdromo
 //ada
 function palindrome(str) {
