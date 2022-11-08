@@ -1,7 +1,12 @@
 //funcion contarVocales(texto){retur cantidadVocales}
 //contarVocales("eucalipto") //5
 
-
+let texto="eucalipto"
+for (let i=0;i<texto.length;i++) {
+    switch(texto[i]){
+        case "a"
+    }
+}
 
 
 //funcion calculadora(num1,num2,operacion){retur total}
