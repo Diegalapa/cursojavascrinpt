@@ -1,26 +1,19 @@
 //funcion contarVocales(texto){retur cantidadVocales}
 //contarVocales("eucalipto") //5
 
-let texto="eucalipto"
-let contador=0
-for (let i=0;i<texto.length;i++) {
-    if(texto[i]=="e"){
-        contador+=1
+function contarVocales(texto){
+    const vocales= "aeiou";
+    let cantidadVocales =0
+    for(const letra of texto){
+        if (vocales.includes(letra.toLowerCase())){
+            cantidadVocales++;
+        }
     }
-    if(texto[i]=="u"){
-        contador+=1
-    }
-    if(texto[i]=="a"){
-        contador+=1
-    }
-    if(texto[i]=="o"){
-        contador+=1
-    } if(texto[i]=="u"){
-        contador+=1
-    }
-    return contador;
+    return cantidadVocales;
+
 }
-console.log("tiene,contador)
+console.log(contarVocales("eucalipto"))
+console.log(contarVocales("magali"))
 
 
 //funcion calculadora(num1,num2,operacion){retur total}
